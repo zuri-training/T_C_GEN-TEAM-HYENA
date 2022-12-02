@@ -144,4 +144,13 @@ __Ugwu Gift Chiemezie__(Product Design Lead)
 
 
 ## Relevant Links
+* Figma Designs - 
+* General Team Documentation - 
+* UX Research Documentation - 
+* Contributors Details and Tasks - https://docs.google.com/spreadsheets/d/11zEA5AO5NdFU0_HDsYaCT9sescxYXY7nal-b08AxRTg/edit?usp=sharing
+* Database Schema - 
 
+## Acknowledgements
+
+This project is acknowlegded to Zuri Team for creating this organization and bringing about this project.
+Special thanks to the sponsors too.
