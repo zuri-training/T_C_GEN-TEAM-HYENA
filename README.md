@@ -27,6 +27,8 @@ A Terms And Condition Generator platform by Team HYENA
 * [Contributors](#contributors)
 * [Relevant Links](#relevant-links)
 * [Acknowledgements](#acknowledgements)
+* [License](#license)
+
 ## About the Project
 
 * Team Hyena is a website that allows users generate clear and precise terms & condition and privacy conditions suitable for all. 
@@ -225,3 +227,9 @@ __Ugwu Gift Chiemezie__(Product Design Lead)
 
 This project is acknowlegded to Zuri Team for creating this organization and bringing about this project.
 Special thanks to the sponsors too.
+
+## LICENSE
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+[MIT](LICENSE)
