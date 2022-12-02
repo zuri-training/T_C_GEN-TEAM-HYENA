@@ -8,7 +8,7 @@
 # Proj-T_C_GEN__TEAM HYENA
 
 ## Background
-This is a platform that allows Users generate Terms and condition, as well as privacy policies suitable for  them. -Team HYENA
+A Terms And Condition Generator platform by Team HYENA
 =======
 
 
