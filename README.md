@@ -1,3 +1,10 @@
+<!--
+*** Markdown was used to write this "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
+
 # Proj-T_C_GEN__TEAM HYENA
 
 ## Background
@@ -97,6 +104,30 @@ __Authenticated Users__ - A user that has fully registered and has completed all
 
 ## Project Status
 Project is : *in progress*
+
+## Roadmap
+
+- [x] Setup project Skeleton (Ensuring modular file structure)
+- [x] Assign tasks to developers and designers
+- [x] Design the site
+- [x] Implement designs
+- [x] Implement fundamental backend functionalities
+    - [x] Authentication
+    - [x] File Generation
+    - [x] Embed
+    - [x] Export
+    - [x] Share
+- [x] Deploy on heroku
+- [x] Save and edit drafts later
+- [x] Delete generated documents
+- [x] Collecting feedback from users after file generation
+- [ ] E-mail users after file generation
+
+
+See the [open issues](https://github.com/zuri-training/Proj-T_C_Gen-Team-74/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## Contributors
 
