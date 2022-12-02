@@ -122,7 +122,34 @@ Project is : *in progress*
 - [x] Collecting feedback from users after file generation
 - [ ] E-mail users after file generation
 
+## Collaboration
+For team_hyena members, follow the following steps to collaborate:
+1. Visit the Repository to the Project on Github Website:https://github.com/zuri-training/T_C_GEN-TEAM-HYENA
 
+2. Fork the repository: Click the "Fork" button on the upper right corner of the Repo page.*
+3. Make a local clone: 
+     Click on the "Code" button on the Repo page <br/>
+     Copy the URL for the forked Repo "https://github.com/zuri-training/T_C_GEN-TEAM-HYENA.git" <br/>
+     Create a Folder on your Local machine / Computer for the project Workspace <br/>
+     Open Command prompt / Terminal in the same folder location <br/>
+     In your Terminal, type: <br/>
+        `git clone https://github.com/github_username/T_C_GEN-TEAM-HYENA.git`
+4. Open terminal and set upstream branch: <br/>
+    `git remote add upstream https://github.com/zuri-training/T_C_GEN-TEAM-HYENA.git`
+5. Pull upstream to get up to date with the original repo:<br/>
+    `git pull upstream main`
+6. Create a new branch for the task you are working on :<br/>
+    `git checkout -b branchName`<br/>
+    *(Make sure your branchName is descriptive in context to the feature you are working on. Also be sure to check which branch you are on using `git status` before you begin working)*
+7. When you're done with your task, do:<br/>
+    `git add`<br/>
+   - Commit your work with a message:<br/>
+   `git commit -m "message"`
+8. To avoid conflicts:<br/>
+    `git pull upstream main`
+9. Then push your branch:<br/>
+    `git push origin branchName` - This creates the branch remotely and pushes to that branch on the Github
+10. Go to Github and create a new pull request to the main branch. It will then be reviewed and merged into the master.
 
 ## Contributors
 
