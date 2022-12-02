@@ -155,6 +155,11 @@ __Ugwu Gift Chiemezie__(Product Design Lead)
 * Track - Python 
 * Email - saolabram@gmail.com
 
+ __Akanni Desola Emily__
+* Github- [https://github.com/saheedibrahim](https://github.com/DesolaSun)
+* Track - Product Design 
+* Email - daisystringz@gmail.com
+
 
 ## Relevant Links
 * Figma Designs - 
