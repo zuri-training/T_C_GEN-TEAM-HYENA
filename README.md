@@ -32,7 +32,7 @@ The Contributors created basic pieces of information, creating project, app.
 ## Built With
 This project is built with the following technologies,frameworks and language !: <br/>
 
-    ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+  *  ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 * __Frontend__<br/>
       ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)<br/>
