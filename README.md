@@ -135,12 +135,12 @@ __Ugwu Gift Chiemezie__(Product Design Lead)
  __Georgia Olowu__
 * Github- https://github.com/Gizi93
 * Track - Frontend
-* Email -georgiaolowu@gmail.com
+* Email - georgiaolowu@gmail.com
 
  __Saheed Ibrahim__
 * Github- https://github.com/saheedibrahim
 * Track - Python 
-* Email -saolabram@gmail.com
+* Email - saolabram@gmail.com
 
 
 ## Relevant Links
