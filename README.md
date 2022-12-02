@@ -10,7 +10,6 @@
 ## Background
 This is a platform that allows Users generate Terms and condition, as well as privacy policies suitable for  them. -Team HYENA
 =======
-The Contributors created basic pieces of information, creating project, app.
 
 
 ## Table of Contents
@@ -123,10 +122,6 @@ Project is : *in progress*
 - [x] Collecting feedback from users after file generation
 - [ ] E-mail users after file generation
 
-
-See the [open issues](https://github.com/zuri-training/Proj-T_C_Gen-Team-74/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Contributors
