@@ -163,7 +163,7 @@ __Ugwu Gift Chiemezie__(Product Design Lead)
 
 ## Relevant Links
 * Figma Designs - 
-* General Team Documentation - 
+* General Team Documentation - https://docs.google.com/document/d/1ExwqhKUoRA5EgJgDHPVl1WZDxIPormkBJduUOAmX_Zs/edit?usp=sharing
 * UX Research Documentation - 
 * Contributors Details and Tasks - https://docs.google.com/spreadsheets/d/11zEA5AO5NdFU0_HDsYaCT9sescxYXY7nal-b08AxRTg/edit?usp=sharing
 * Database Schema - 
