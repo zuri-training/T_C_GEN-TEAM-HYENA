@@ -11,11 +11,12 @@ The Contributors created basic pieces of information, creating project, app.
 
 * [Background](#background)
 * [About the Project](#about-the-project)
-* [Technologies Used](#technologies-used)
+* [Built With](#built-with)
 * [Features](#features)
 * [Product Specification](#product-specialization)
 * [Usage](#usage)
 * [Project Status](#project-status)
+* [Road Map](#road-map)
 * [Collaboration](#collaboration)
 * [Contributors](#contributors)
 * [Relevant Links](#relevant-links)
@@ -28,17 +29,14 @@ The Contributors created basic pieces of information, creating project, app.
 
 * This project is solely aimed at solving Legal liabilities that may arise because a user of a product isn't aware or did not agree to the conditions of use of the particular product.
 
-## Technologies Used
-This project is being created with !: <br/>
-* __Design__<br/>
+## Built With
+This project is built with the following technologies,frameworks and language !: <br/>
+
         ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 *
-* __Backend__<br/>
-
-* __Database__<br/>
-        ![MySQL]
-
-* __Project Management and Version Control__<br/>
+         [Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+        ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+        ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
         ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ## Features
