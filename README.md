@@ -228,7 +228,7 @@ __Ugwu Gift Chiemezie__(Product Design Lead)
 * Figma Designs - https://www.figma.com/file/ozODgazxif7Ob8Vl85Z6kn/TeamHyena2-Product-Design?node-id=0%3A1&t=7UEJFQmm74F4Xt0o-0
 * General Team Documentation - https://docs.google.com/document/d/1ExwqhKUoRA5EgJgDHPVl1WZDxIPormkBJduUOAmX_Zs/edit?usp=sharing
 * Contributors Details and Tasks - https://docs.google.com/spreadsheets/d/11zEA5AO5NdFU0_HDsYaCT9sescxYXY7nal-b08AxRTg/edit?usp=sharing
-* Database Schema - 
+* Database Schema - https://app.dbdesigner.net/designer/schema/0-database-schema-terms-45
 
 ## Acknowledgements
 
