@@ -7,7 +7,6 @@
 
 # Proj-T_C_GEN__TEAM HYENA
 
-## Background
 A Terms And Condition Generator platform by Team HYENA
 =======
 
@@ -217,9 +216,8 @@ __Ugwu Gift Chiemezie__(Product Design Lead)
 
 
 ## Relevant Links
-* Figma Designs - 
+* Figma Designs - https://www.figma.com/file/ozODgazxif7Ob8Vl85Z6kn/TeamHyena2-Product-Design?node-id=0%3A1&t=7UEJFQmm74F4Xt0o-0
 * General Team Documentation - https://docs.google.com/document/d/1ExwqhKUoRA5EgJgDHPVl1WZDxIPormkBJduUOAmX_Zs/edit?usp=sharing
-* UX Research Documentation - 
 * Contributors Details and Tasks - https://docs.google.com/spreadsheets/d/11zEA5AO5NdFU0_HDsYaCT9sescxYXY7nal-b08AxRTg/edit?usp=sharing
 * Database Schema - 
 
