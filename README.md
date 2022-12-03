@@ -214,6 +214,15 @@ __Ugwu Gift Chiemezie__(Product Design Lead)
 * Track - Product Design 
 * Email - daisystringz@gmail.com
 
+ __Genevieve C.Onyekonwu__
+* Github- https://github.com/Cgenny
+* Track - Product Design
+* Email - gchiadi@gmail.com
+
+ __Mubarak Sanni__
+* Github- https://github.com/Mubaraksanni31
+* Track - Product Design
+* Email - mubaraksanni31@gmail.com
 
 ## Relevant Links
 * Figma Designs - https://www.figma.com/file/ozODgazxif7Ob8Vl85Z6kn/TeamHyena2-Product-Design?node-id=0%3A1&t=7UEJFQmm74F4Xt0o-0
