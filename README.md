@@ -229,7 +229,6 @@ __Ugwu Gift Chiemezie__(Product Design Lead)
 * General Team Documentation - https://docs.google.com/document/d/1ExwqhKUoRA5EgJgDHPVl1WZDxIPormkBJduUOAmX_Zs/edit?usp=sharing
 * Contributors Details and Tasks - https://docs.google.com/spreadsheets/d/11zEA5AO5NdFU0_HDsYaCT9sescxYXY7nal-b08AxRTg/edit?usp=sharing
 * Database Schema - https://app.dbdesigner.net/designer/schema/0-database-schema-terms-45
-
 ## Acknowledgements
 
 This project is acknowlegded to Zuri Team for creating this organization and bringing about this project.
