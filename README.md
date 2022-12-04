@@ -37,7 +37,7 @@ A Terms And Condition Generator platform by Team HYENA
 * This project is solely aimed at solving Legal liabilities that may arise because a user of a product isn't aware or did not agree to the conditions of use of the particular product.
 
 ## Built With
-This project is built with the following technologies,frameworks and language !: <br/>
+This project is built with the following technologies,frameworks and languages !: <br/>
 
 * __Design__<br/>
         ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
