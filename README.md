@@ -63,11 +63,11 @@ This project is built with the following technologies,frameworks and language !:
 
 ## Features
 
-__Unauthenticated users__ - An individual who have not registered to the website would be able to;
+__Unauthenticated users__ - An individual who has not registered to the website would be able to;
 
     Visit the platform to view basic information about it
     View and Interact with the documentation
-    Register to view more detailswould be able
+    Register to view more details 
     No access to use until registered
 
 
