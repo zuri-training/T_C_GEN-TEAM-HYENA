@@ -13,7 +13,7 @@ def Homepage(request):
     return render(request, 'application/index.html', {})
 
 
-def Signup(request):
+def Register(request):
     if request.method == 'POST':
         fname = request.POST.get('fname')
         lname = request.POST.get('lname')
@@ -26,26 +26,26 @@ def Signup(request):
         new_user.last_name = lname
 
         new_user.save()
-        return redirect('signin-page')
+        return redirect('login-page')
 
-    return render(request, 'application/signup.html',{})
+    return render(request, 'application/register.html',{})
 
-def Signin(request): 
+def Login(request): 
      if request.method == 'POST':
         name = request.POST.get('uname')
         password = request.POST.get('pword')
 
-        User = authenticate((name, password))
+        User = authenticate(request, username=name, password=password)
         if User is not None:
             login(request, User)
-            return redirect("home-page")
+            return redirect('home-page')
         else:
             return HttpResponse('Error, user does not exist')
 
-     return render(request, 'application/Signin.html',{})
+     return render(request, 'application/Login.html',{})
 
 def logoutuser(request):
         logout(request)
-        return redirect("signin-page")
+        return redirect('login-page')
      
      
