@@ -1,43 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=h1, initial-scale=1.0">
-    <title>Document</title>
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'css/style.css'%}" />
-</head>
-<body>
-
-  <div class="parent">
-    <div class=""form>
-    <h1>Signin Page</h1>
-    {%csrf_token%}
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Terma - Sign In</title>
     
-    <form action="" method="POST">
-      {%csrf_token%}
-      <label for="fname">Userame:</label>
-      <input
-        type="text"
-        placeholder="Enter your username"
-        name="uname"
-      /><br />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'css/signIn.css'%}" />
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}"/>
 
-      <label for="fname">Password:</label>
-      <input
-        type="password"
-        placeholder="Enter your Password"
-        name="pword"
-      /><br />
+    <link rel="stylesheet" href="{% static 'css/all.min.css'%}"/>
+  </head>
 
-      <button type="submit">Submit</button>
+  <body>
+    <section class="container">
+      <div class="logo">
+        <img
+            src="{% static 'image/Termalogo.png'%}"
+          class="img-logo"
+          alt=""
+          width="290px"
+          height="130.54px"
+        />
+      </div>
+
+      <aside>
+        <div class="svg">
+          <img src="{% static 'image/cute-couple-looking-each-other-removebg-preview 1.png'%}" />
+        </div>
+
+        <!-- Form container -->
+        <div class="form-group">
+          <h2>Sign In</h2>
+          <div class="top-btn">
+            <button class="field-google">
+              <span>Sign In With Google </span>
+              <img
+                src="{% static 'image/icons8-google-48 2.png'%}"
+                alt=""
+                class="google-img"
+                width="13"
+              />
+            </button>
+            <div class="word-on-line">
+              <span>or Sign In With Your Email</span>
+            </div>
+          </div>
+
+          
+          <h3 class="error-message"></h3>
+          
+
+          <form method="POST" action="signin">
+             <div class="input-group mb-4">
+              <span class="input-group-text"><i class="fa fa fa-user"></i></span>
+              <input type="text" class="form-control" placeholder="Enter UserName"
+                class="input"/>
+            </div>
+
+
+
+            <div class="input-group mb-4">
+              <span class="input-group-text"><i class="fa fa fa-envelope"></i></span>
+              <input type="text" class="form-control" placeholder="Enter Your Email"
+                class="input"/>
+            </div>
+              
+              
+
+            
+
+            <div class="input-group mb-4">
+              <span class="input-group-text"><i class="fa fa fa-lock"></i></span>
+              <input type="text" class="form-control" placeholder="Enter Password"
+                class="input"/>
+            </div>
+
+            <a class="fpwd" href="forgotpassword.html">Forgot Password?</a>
+
+            
+              <div class="form-link">
+                <button type="button" class="btn btn-success"> <a href=""></a>Login</button>
+              
+              </div>
+  
+                
+
+            <p class="form-link">
+              Don't have an account? <a href="signUp.html">Sign Up</a>
+            </p>
+            <p class=form-link>-Or sign In with-
+               <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
       
-    </form>
-  </div>
-</div>
-</body>
-</html>
 
-</body>
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+            </p>
+          </form>
+        </div>
+      </aside>
+    </section>
+
+    <script src="{% static 'js/bootstrap.bundle.min.js'%}"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+  </body>
 </html>
