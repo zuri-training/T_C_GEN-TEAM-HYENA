@@ -76,6 +76,7 @@ section{
  font-size: 18px;
  font-weight: 400;
  line-height: 27px;
+ /* font-family: futura b; */
 
 }
 #inner-cons{
@@ -108,4 +109,9 @@ section{
  font-size: 18px;
  font-weight: 400;
  line-height: 21.58px;
+}
+
+#last-footer{
+  background-color: #093330;
+  height: 30vh;
 }
