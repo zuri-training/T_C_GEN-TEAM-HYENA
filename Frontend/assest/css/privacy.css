@@ -116,5 +116,13 @@ section{
 
 #last-footer{
   background-color: #093330;
-  height: 30vh;
+  height: 56vh;
+  color: white;
 }
+#fifth-cont{
+  padding: 60px 90px;
+  }
+  .faint{
+    font-weight: lighter;
+    font-size: small;
+  }
