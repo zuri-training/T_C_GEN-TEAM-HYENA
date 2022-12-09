@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#me{
+  width: 70%;
+  /* gap: 120px; */
+  color: #000000;
+  font-weight: 400;
+  line-height: 32.5px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+#logo{
+  width: 50%;
+}
+#search{
+  background-color: #476663;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+#second-con{
+  height: 100vh;
+}
+#butto{
+background-color: #093330;
+color: #FFFFFF;
+text-align: center;
+width: 350px;
+height: 40px;
+}
+#btn-con{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 40px 0;
+}
+#clarity-logo{
+  width: 100%;
+}
+#form-cont{
+width: 50%;
+margin: auto;
+}
+#text-cont{
+  text-align: center;
+  margin: 15px 0;
+}
+#last-footer{
+  background-color: #093330;
+  height: 30vh;
+}
