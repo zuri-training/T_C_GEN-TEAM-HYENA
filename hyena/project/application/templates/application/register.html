@@ -73,15 +73,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/all.min.css"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/signUp.css" />
+    <link rel="stylesheet" href="{% static 'css/all.min.css'%}"/>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}"/>
+    <link rel="stylesheet" href="{% static 'css/signUp.css'%}" />
   </head>
 
   <body>
     <section class="container">
       <div class="logo">
-        <img src="image/Termalogo.png"
+        <img src="{% static 'image/Termalogo.png'%}"
           class="img-logo"
           alt="Logo"
           width="290px"
@@ -91,7 +91,7 @@
 
       <aside>
         <div class="svg">
-          <img src="image/executive.png"/>
+          <img src="{% static 'image/executive.png'%}"/>
         </div>
 
         <!-- Form container -->
@@ -101,7 +101,7 @@
             <button class="field-google">
               <span>Sign up with google </span>
               <img
-                src="image/icons8-google-48 2.png"
+                src="{% static 'image/icons8-google-48 2.png'%}"
                 alt=""
                 class="google-img"
                 width="13"
@@ -242,7 +242,7 @@
       });
           </script>
       
-      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="{% static 'js/bootstrap.bundle.min.js'%}"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
   </body>
