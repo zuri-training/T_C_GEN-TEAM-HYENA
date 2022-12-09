@@ -81,8 +81,9 @@ margin: auto;
 }
 #last-footer{
   background-color: #093330;
-  height: 35vh;
-  padding: 20px 80px;
+  height: 30vh;
+  padding: 20px 70px;
+ 
   display: flex;
   justify-content:center;
   align-items:center;
@@ -97,15 +98,11 @@ margin: auto;
   align-items: center;
   
 }
-#footer-btn{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  margin-top: -20px;
-}
 #footer-frame{
   width: 90%;
+
 }
+
 .bold{
   font-weight: bold;
   color: #093330;
