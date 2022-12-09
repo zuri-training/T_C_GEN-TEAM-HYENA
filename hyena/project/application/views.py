@@ -47,5 +47,7 @@ def Login(request):
 def logoutuser(request):
         logout(request)
         return redirect('login-page')
-     
-     
+
+def Aboutus(request):
+    return render(request, "application/Aboutus.html", {})
+    
