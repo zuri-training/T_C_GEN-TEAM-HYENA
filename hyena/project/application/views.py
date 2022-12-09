@@ -50,4 +50,6 @@ def logoutuser(request):
 
 def Aboutus(request):
     return render(request, "application/Aboutus.html", {})
-    
+
+def resetpassword(request):
+    return render(request, "application/resetpassword.html", {})
