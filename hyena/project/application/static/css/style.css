@@ -1,9 +1,130 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap");
 
-html,body{
-    height:100%;
-    
+html,
+body {
+  height: 100%;
+}
+.hero{
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+
+.hero h2 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 57.89px;
+}
+.hero p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.18px;
+}
+.hero img {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  left: 913px;
+  top: 170px;
+}
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+h4{
+     
+     color: black;
+    text-align:center;
+    font-weight:700;
+    font-size:40px;
+    line-height:47.95px;
+
+}
+.h4 ,i{
+    color:#093300;
+    font-style: italic;
+    font-size:40px;
+    font-weight:700;
+    line-height: 48.24px;
+    text-align: center;
+}
+#service{
+  padding-top: 120px;
+  padding-bottom: 120px ;
+}
+.service-card {
+  position: absolute;
+  border-radius: 15px;
+  box-sizing: border-box;
+  width:480px;
+  height:220px;
+  top:1300px;
+  left:450;
+  background-color: #FFF8F8;
+  box-shadow: 4px 4px 0px rgba(0,0,0,0.25);
+  border-radius: 7px;
+  
+}
+
+.handy img{
+  
+  width:600px;
+}
+h3{
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  height: 19px;
+  text-align: center;
+
 }
 
 
-   
+.service-card text{
+  position:absolute;
+
+
+  
+}
+
+
+
+
+
+
+.card-body:hover {
+  background-color:#093300;
+  transform:translateY(-10px);
+  color: #FFF8F8;
+}
+
+
+
+
+.card-text{
+  text-align:left;
+  width: 183px;
+  height:180px;
+  top:2600px;
+  left:181px
+
+
+}
+.title{
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47.95;
+}
+
+.customers{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap:40px;
+  margin-top: 50px;
+
+}
+.cust img{
+width:300px;
+
+}
