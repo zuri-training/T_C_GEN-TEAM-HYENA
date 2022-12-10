@@ -183,7 +183,7 @@ body{
   align-items:center;
   height:40px;
  border-radius: 5px;
- /* display: none; */
+ display: none;
 }
 .regh{
   background-color: transparent;
