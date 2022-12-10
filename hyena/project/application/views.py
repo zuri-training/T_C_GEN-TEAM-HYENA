@@ -9,7 +9,7 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 @login_required
 
-def Homepage(request):
+def Home(request):
     return render(request, 'application/index.html', {})
 
 
@@ -17,16 +17,20 @@ def Register(request):
     if request.method == 'POST':
         fname = request.POST.get('fname')
         lname = request.POST.get('lname')
-        user_name = request.POST.get('uname')
+        name = request.POST.get('uname')
         email = request.POST.get('email')
         password = request.POST.get('pword')
+        password2=request.POST.get('pword2')
 
-        new_user = User.objects.create_user(user_name, email, password) 
+        new_user = User.objects.create_user(name, email, password) 
         new_user.first_name = fname
         new_user.last_name = lname
+        new_user.password =password2
 
         new_user.save()
         return redirect('login-page')
+
+        
 
     return render(request, 'application/register.html',{})
 
@@ -53,3 +57,7 @@ def Aboutus(request):
 
 def resetpassword(request):
     return render(request, "application/resetpassword.html", {})
+
+def Faq(request):
+    return render(request, "application/Faq.html", {})
+
