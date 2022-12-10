@@ -1,17 +1,18 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assest/css/about.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="{% static 'css/about.css'%}"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"/>
   <title>About Us Page</title>
 </head>
 <body>
   <section>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand" href="#"><img src="./assest/images/terma.jpg" id="logo" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="{% static 'image/Termalogo.png'%}" id="logo" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -22,17 +23,17 @@
             <a class="nav-link" href="#">About Us</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Templates</a>
+            <a class="nav-link" hresf="#">Templates</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link">Contact Us</a>
+            <a class="nav-link" href="#">Contact Us</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link">Sign Up</a>
+            <a href="../register" class="nav-link" >Sign Up</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <button type="button" class="btn" id="search">Search</button>
+          <button type="button" class="btn" id="sesarch">Search</button>
         </form>
       </div>
     </nav>
@@ -42,18 +43,18 @@
         <p class="words">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet scelerisque euismod phasellus nibh. Rutrum metus massa tincidunt donec lacus, in. Velit, et nibh orci nunc. A arcu, maecenas faucibus pellentesque et amet.</p>
       </div>
       <div class="col-sm-6">
-        <img src="./assest/images/Frame 342.png" alt="pic" id="images">
+        <img src="{% static 'image/Frame_342.png'%}" alt="pic" id="images">
       </div>
     </div>
     <div class="row" id="first-conts">
       <div class="col-sm-6">
-        <img src="./assest/images/Group.png" alt="pic" id="image">
+        <img src="{% static 'image/Group.png'%}" alt="pic" id="image">
       </div>
       <div class="col-sm-6">
         <div class="container-fluid" id="cont">
         <h2 class="head-two">What do we do?</h2>
         <p class="text-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet scelerisque euismod phasellus nibh. Rutrum metus massa tincidunt donec lacus, in. Velit, et nibh orci nunc. A arcu, maecenas faucibus pellentesque et amet.</p>
-        <img src="./assest/images/Group 24.png" alt="" id="green">
+        <img src="{% static 'image/Group 24.png'%}" alt="" id="green">
       </div>
       </div>
     </div>
@@ -87,7 +88,7 @@
           </form>
         </div>
         <div class="col-6" id="footer-im">
-          <img src="./assest/images/Frame 273.png" alt="" id="footer-frame">
+          <img src="{% static 'image/Frame 273.png'%}" alt="" id="footer-frame">
         </div>
       </div>
    </footer>

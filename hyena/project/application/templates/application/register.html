@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -58,13 +59,18 @@
           <h3 class="error-message"></h3>
           
 
-          <form method="POST" action="signup">
-            
+          <form method="POST" action="">
+          {% csrf_token %}
             
             <div class="input-group mb-4">
               <span class="input-group-text"><i class="fa fa fa-user"></i></span>
-              <input type="text" class="form-control" placeholder="Enter First Name"
-                class="input"/>
+              <input 
+                type="text"
+                class="form-control" 
+                name="fname"
+                placeholder="Enter First Name"
+                class="input"
+              />
             </div>
 
             
@@ -73,6 +79,7 @@
               <input
                 type="text"
                 class="form-control"
+                name="lname"
                 placeholder="Enter Last Name"
                 class="input"
               />
@@ -84,6 +91,7 @@
               <input
                 type="username"
                 class="form-control"
+                name="uname"
                 placeholder="Enter Username"
                 class="input"/>
               
@@ -95,6 +103,7 @@
               <input
                 type="email"
                 class="form-control"
+                name="email"
                 placeholder="Enter Email Address"
                 class="input"/>
                 </div>
@@ -104,6 +113,7 @@
               <span class="input-group-text"><i class="fa fa fa-lock"></i></span>
               <input
                 type="password"
+                name="pword"
                 class="form-control"
                 placeholder="Enter your password"
                 class="input"
@@ -112,8 +122,10 @@
 
             <div class="input-group mb-4">
               <span class="input-group-text"><i class="fa fa fa-lock"></i></span>
+              
               <input
                 type="password"
+                name="pword2"
                 class="form-control"
                 placeholder="Confrm your password"
                 class="input"
@@ -163,7 +175,7 @@
                 
 
             <p class="form-link">
-              Already have an account? <a href="">Sign in</a>
+              Already have an account? <a href="../login">Sign in</a>
             </p>
           </form>
         </div>

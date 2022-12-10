@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -60,7 +61,11 @@
           <form method="POST" action="signin">
              <div class="input-group mb-4">
               <span class="input-group-text"><i class="fa fa fa-user"></i></span>
-              <input type="text" class="form-control" placeholder="Enter UserName"
+              <input 
+                type="text" 
+                name="uname"
+                class="form-control" 
+                placeholder="Enter UserName"
                 class="input"/>
             </div>
 
@@ -68,7 +73,11 @@
 
             <div class="input-group mb-4">
               <span class="input-group-text"><i class="fa fa fa-envelope"></i></span>
-              <input type="text" class="form-control" placeholder="Enter Your Email"
+              <input 
+                type="text" 
+                name="email"
+                class="form-control" 
+                placeholder="Enter Your Email"
                 class="input"/>
             </div>
               
@@ -78,11 +87,15 @@
 
             <div class="input-group mb-4">
               <span class="input-group-text"><i class="fa fa fa-lock"></i></span>
-              <input type="text" class="form-control" placeholder="Enter Password"
+              <input 
+                type="password" 
+                name="pword"
+                class="form-control" 
+                placeholder="Enter Password"
                 class="input"/>
             </div>
 
-            <a class="fpwd" href="forgotpassword.html">Forgot Password?</a>
+            <a class="fpwd" href="../resetpassword">Forgot Password?</a>
 
             
               <div class="form-link">
@@ -93,7 +106,7 @@
                 
 
             <p class="form-link">
-              Don't have an account? <a href="signUp.html">Sign Up</a>
+              Don't have an account? <a href="../register">Sign Up</a>
             </p>
             <p class=form-link>-Or sign In with-
                <!-- Grid container -->
