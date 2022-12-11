@@ -7,9 +7,9 @@ from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
-@login_required
 
-def Home(request):
+
+def index(request):
     return render(request, 'application/index.html', {})
 
 
@@ -68,5 +68,6 @@ def contactus(request):
 def privacypolicy(request):
     return render(request, "application/privacy_policy_preview.html", {})
 
+@login_required
 def tcpreview(request):
     return render(request, "application/TC_preview.html")
