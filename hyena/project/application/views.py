@@ -70,16 +70,24 @@ def privacypolicypreview(request):
 
 @login_required
 def tcpreview(request):
-    return render(request, "application/TC_preview.html")
+    return render(request, "application/TC_preview.html", {})
 
 @login_required
 def tcgen(request):
-    return render (request,  "application/TC_Generator_page.html")
+    return render (request,  "application/TC_Generator_page.html", {})
 
 @login_required
 def tcmodal(request):
-    return render(request, "application/TC_Modal_page_1.html") 
+    return render(request, "application/TC_Modal_page_1.html", {}) 
 
 @login_required
 def privacypolicy(request):
-    return render (request, "application/privacypolicy.html")
+    return render (request, "application/privacypolicy.html",{})
+
+@login_required
+def tcmodal2(request):
+    return render(request, "application/TC_Modal_page_2.html", {})
+
+@login_required
+def tcmodal3(request):
+    return render (request, "application/TC_Modal_page_3.html", {})
