@@ -79,3 +79,7 @@ def tcgen(request):
 @login_required
 def tcmodal(request):
     return render(request, "application/TC_Modal_page_1.html") 
+
+@login_required
+def privacypolicy(request):
+    return render (request, "application/privacypolicy.html")
