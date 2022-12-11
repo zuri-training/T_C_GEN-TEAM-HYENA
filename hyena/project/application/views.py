@@ -65,9 +65,17 @@ def Faq(request):
 def contactus(request):
     return render(request, "application/Contactus.html", {})
 
-def privacypolicy(request):
+def privacypolicypreview(request):
     return render(request, "application/privacy_policy_preview.html", {})
 
 @login_required
 def tcpreview(request):
     return render(request, "application/TC_preview.html")
+
+@login_required
+def tcgen(request):
+    return render (request,  "application/TC_Generator_page.html")
+
+@login_required
+def tcmodal(request):
+    return render(request, "application/TC_Modal_page_1.html") 
