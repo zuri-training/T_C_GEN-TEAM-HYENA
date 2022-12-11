@@ -57,8 +57,8 @@ padding-left: 124px;
    border-radius: 5%;
   border: none;
   text-decoration: none;
-  transition: background 0.2s;}
-float: right;
+  transition: 0.2s;
+  float: right;
    
  }
 
