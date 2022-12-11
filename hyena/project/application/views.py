@@ -53,3 +53,7 @@ def Aboutus(request):
 
 def resetpassword(request):
     return render(request, "application/resetpassword.html", {})
+
+
+def Privacypolicy(request):
+    return render(request, "application/privacypolicy.html", {})
