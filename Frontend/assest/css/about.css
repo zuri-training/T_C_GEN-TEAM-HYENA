@@ -107,3 +107,11 @@ margin: auto;
   font-weight: bold;
   color: #093330;
 }
+#sucess{
+  width: 21%;
+  gap: 15px;
+}
+#outline{
+  background-color:#093330;
+  color: white;
+}
