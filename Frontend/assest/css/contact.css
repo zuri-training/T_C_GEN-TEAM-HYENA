@@ -58,3 +58,24 @@ margin: auto;
   background-color: #093330;
   height: 30vh;
 }
+#sucess{
+  width: 21%;
+  gap: 15px;
+}
+#outline{
+  background-color:#093330;
+  color: white;
+}
+#last-footer{
+  background-color: #093330;
+  height: 56vh;
+  color: white;
+  margin-top: 20px;
+}
+#fifth-cont{
+  padding: 60px 90px;
+  }
+  .faint{
+    font-weight: lighter;
+    font-size: small;
+  }
