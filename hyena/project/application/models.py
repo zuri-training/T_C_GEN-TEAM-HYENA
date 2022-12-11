@@ -2,7 +2,7 @@ from django.db import models
 import uuid #univeral unique identifier
 from django.contrib.auth.models import User
 from datetime import datetime
-#from django_countries.fields import CountryField
+from django_countries.fields import CountryField
 
 # Create your models here.
 class Company (models.Model):
@@ -29,7 +29,7 @@ class Company_policy_contacts (models.Model):
     owner=models.ForeignKey(User, on_delete=models.CASCADE)
     company_phone_number=models.CharField(max_length=17)
     company_email=models.EmailField(max_length=100)
-    #company_country=CountryField(blank=True)
+    company_country=CountryField(blank=True)
     
 
     def __str__(self):
