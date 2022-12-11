@@ -65,3 +65,8 @@ def Faq(request):
 def contactus(request):
     return render(request, "application/Contactus.html", {})
 
+def privacypolicy(request):
+    return render(request, "application/privacy_policy_preview.html", {})
+
+def tcpreview(request):
+    return render(request, "application/TC_preview.html")

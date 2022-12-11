@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import Home, Register, Login,  logoutuser, Aboutus, resetpassword, Faq, contactus
+from .views import Home, Register, Login,  logoutuser, Aboutus, resetpassword, Faq, contactus, privacypolicy,tcpreview
 
 urlpatterns = [
     
@@ -11,6 +11,7 @@ urlpatterns = [
     path('resetpassword/', resetpassword, name= "resetpassword"),
     path('Faq/',Faq,name="Faq"),
     path('contactus/', contactus, name="contactus"),
-    
+    path('privacypolicy/', privacypolicy, name="privacy_policy_preview"),
+    path('TC_preview/',tcpreview, name="TC_preview"),
 
     ]
