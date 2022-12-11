@@ -61,3 +61,7 @@ def resetpassword(request):
 def Faq(request):
     return render(request, "application/Faq.html", {})
 
+
+def contactus(request):
+    return render(request, "application/Contactus.html", {})
+
