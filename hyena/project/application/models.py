@@ -29,7 +29,8 @@ class Company_policy_contacts (models.Model):
     owner=models.ForeignKey(User, on_delete=models.CASCADE)
     company_phone_number=models.CharField(max_length=17)
     company_email=models.EmailField(max_length=100)
-    company_country =CountryField(blank=True)
+    company_country=CountryField(blank=True)
+    
 
     def __str__(self):
         return self.owner + " "+ (self.company_phone_number)
