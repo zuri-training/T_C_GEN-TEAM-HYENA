@@ -93,5 +93,20 @@ def tcmodal3(request):
     return render (request, "application/TC_Modal_page_3.html", {})
 
 @login_required
+def popup(request):
+    return render (request, "application/popup _page.html", {})
+
+@login_required
+def privacymodal1(request):
+    return render (request, "application/privacy_modal1_page.html", {}) 
+
+@login_required
+def privacymodal3(request):
+    return render (request, "application/privacy_modal3_page.html", {}) 
+
+@login_required
+def privacymodal2(request):
+    return render (request, "application/privacy_modal2_page.html", {})        
+
 def tc_condition(request):
     return render(request, "application/Termscondition.html", {})

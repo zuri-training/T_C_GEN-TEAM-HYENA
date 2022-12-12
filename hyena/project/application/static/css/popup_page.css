@@ -1,0 +1,64 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: futura;
+  margin:0;
+  padding:0;
+  background: #FFFFFF;
+}
+.main-container{
+  height: 180vh;
+  display: grid;
+}
+.image{
+  width: 40%;
+}
+.header{
+  align-items: center;
+  justify-content: center; 
+    margin: auto;
+  padding-top: 10px;
+  padding-left: 90px
+}
+h2{
+  font-size: 56px;
+  color: #7C7B7B;
+  font-family: futura md;
+  padding-top: 10px
+  text-align: center;
+ margin: auto; 
+}
+.cont{
+  padding-top: 10px;
+  align-items: left;
+  margin: auto;
+  display: flex;
+  justify-content: space-between; 
+  width:100%;
+}
+.btn-ton1{
+ font-size: 32px;
+ background-color: #093330;
+ color: #FFFFFF;
+ font-family: futura md;
+  width:579px; 
+  height:156px;
+border-radius: 20px;
+align-items: center;
+text-align: center;
+display: grid;
+margin: auto;  
+}
+.btn-cont{
+  font-size: 32px;
+  background-color: #AEBEBD;
+color: #FFFFFF;
+font-family: futura md;
+  width:579px;
+    height:156px;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  margin: auto;  
+}
