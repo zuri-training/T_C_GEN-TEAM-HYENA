@@ -81,9 +81,8 @@ margin: auto;
 }
 #last-footer{
   background-color: #093330;
-  height: 30vh;
+  /* height: 10vh; */
   padding: 20px 70px;
- 
   display: flex;
   justify-content:center;
   align-items:center;
@@ -114,4 +113,14 @@ margin: auto;
 #outline{
   background-color:#093330;
   color: white;
+}
+#last{
+  background-color:white;
+  height: 60px;
+  color: #093330;
+  display: flex;
+  justify-content: center;
+}
+.all-text{
+  margin-top: 30px;
 }

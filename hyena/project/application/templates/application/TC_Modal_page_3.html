@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 
@@ -9,7 +10,7 @@
 
   <link rel="logo" type="image/png" sizes="16x16">
   <title>Terms</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="{% static 'css/TC_Modal_page_3.css'%}" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -61,7 +62,7 @@
 </div>
 
 <section class="cont">
-         <button class="btn-cont"> Back  </button>
+         <button class="btn-cont"> <a href="../TC_Modal_page_2">Back</a> </button>
          <button class="btn-ton1"> Next </button> 
        </div>+
 
