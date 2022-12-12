@@ -96,4 +96,14 @@ def tcmodal3(request):
 def popup(request):
     return render (request, "application/popup_page.html", {})
 
+@login_required
+def privacymodal1(request):
+    return render (request, "application/privacy_modal1_page.html", {}) 
+
+@login_required
+def privacymodal3(request):
+    return render (request, "application/privacy_modal3_page.html", {})       
+
+
+
 
