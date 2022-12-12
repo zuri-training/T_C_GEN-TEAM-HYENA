@@ -91,3 +91,7 @@ def tcmodal2(request):
 @login_required
 def tcmodal3(request):
     return render (request, "application/TC_Modal_page_3.html", {})
+
+@login_required
+def tc_condition(request):
+    return render(request, "application/Termscondition.html", {})
