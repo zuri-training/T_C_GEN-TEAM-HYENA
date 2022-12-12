@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+.page-header{
+  margin-top:5rem;
+}
+
+.page-header h2 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 50.89px;
+  margin-top: 100px;
+}
+.page-header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.18px;
+}
+.page-header img {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  left: 700px;
+  top: 170px;
+}
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+h4{
+     
+     color: black;
+    text-align:center;
+    font-weight:700;
+    font-size:40px;
+    line-height:47.95px;
+
+}
+.h4 ,i{
+    color:#093330;
+    font-style: italic;
+    font-size:40px;
+    font-weight:700;
+    line-height: 48.24px;
+    text-align: center;
+}
+
+.section-bar{
+  margin-top: 130px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 5px;
+  background-color: #093330;
+
+}
+
+#service{
+  padding-top: 100px;
+  padding-bottom: 100px ;
+}
+.service-card {
+  position: absolute;
+  border-radius: 15px;
+  box-sizing: border-box;
+  width:480px;
+  height:220px;
+  left:450;
+  background-color: #FFF8F8;
+  box-shadow: 4px 4px 0px rgba(0,0,0,0.25);
+  border-radius: 7px;
+  margin-top:9px;
+  
+}
+.service-btn{
+  position: absolute;
+  margin-top: 260px;
+  padding:10px ;
+  background-color: #093330;
+  color: #FFF8F8;
+  width: 150px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.handy img{
+  
+  width:600px;
+}
+h3{
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  height: 19px;
+  text-align: center;
+
+}
+
+
+.service-card text{
+  position:absolute;
+
+
+  
+}
+
+
+
+
+
+
+.card-body:hover {
+  background-color:#093330;
+  transform:translateY(-10px);
+  color: #FFF8F8;
+}
+
+
+
+
+.card-text{
+  text-align:left;
+  width: 183px;
+  height:180px;
+  top:2500px;
+  left:181px
+
+
+}
+.cards{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.title{
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47.95;
+}
+
+.customers{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap:30px;
+  margin-top:10px;
+  margin-bottom: 10px;
+
+}
+.cust img{
+width:320px;
+
+}
+.footer{
+  background-color: #093330;
+  color:#FFF8F8;
+  text-decoration: none;
+  padding: 10px;
+}
