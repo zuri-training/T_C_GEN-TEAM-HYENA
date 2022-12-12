@@ -228,3 +228,22 @@ body{
   .heder{
   margin: auto;
   }
+  select{
+    height:60px;
+    width: 100%;
+    gap: 20px;
+    
+  }
+  span{
+    width: 50%;
+  }
+  .choose{
+    font-size: small;
+  }
+
+  #opttwo{
+    margin-top: 70px;
+  }
+  #optones{
+    margin-top: 30px;
+  }
