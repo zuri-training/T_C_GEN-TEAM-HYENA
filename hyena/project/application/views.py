@@ -102,7 +102,11 @@ def privacymodal1(request):
 
 @login_required
 def privacymodal3(request):
-    return render (request, "application/privacy_modal3_page.html", {})       
+    return render (request, "application/privacy_modal3_page.html", {}) 
+
+@login_required
+def privacymodal2(request):
+    return render (request, "application/privacy_modal2_page.html", {})        
 
 
 
