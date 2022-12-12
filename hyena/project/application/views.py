@@ -108,6 +108,5 @@ def privacymodal3(request):
 def privacymodal2(request):
     return render (request, "application/privacy_modal2_page.html", {})        
 
-
-
-
+def tc_condition(request):
+    return render(request, "application/Termscondition.html", {})

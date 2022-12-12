@@ -1,6 +1,6 @@
 from django.urls import path
 from .views import index, Register, Login,  logoutuser, Aboutus, resetpassword, Faq, contactus, privacypolicypreview,tcpreview
-from .views import tcgen,tcmodal,privacypolicy,tcmodal2,tcmodal3, popup, privacymodal1, privacymodal3, privacymodal2
+from .views import tcgen,tcmodal,privacypolicy,tcmodal2,tcmodal3
 urlpatterns = [
     
     path('index/', index, name="home-page"),
@@ -18,9 +18,5 @@ urlpatterns = [
     path('privacypolicy/',privacypolicy, name="privacypolicy"),
     path('tcmodal2/',tcmodal2, name="tcmodal2"),
     path('tcmodal3/', tcmodal3, name="tcmodal3"),
-    path('popup/', popup, name="popup"),
-    path('privacymodal1/', privacymodal1, name="privacymodal1"),
-    path('privacymodal3/', privacymodal3, name="privacymodal3"),
-    path('privacymodal2/', privacymodal2, name="privacymodal2"),
     
     ]
