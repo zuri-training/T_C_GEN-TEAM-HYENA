@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
-
+from django.db import models
 
 # Create your views here.
 
@@ -71,6 +71,7 @@ def privacypolicypreview(request):
 
 def tcpreview(request):
     return render(request, "application/TC_preview.html", {})
+    
 @login_required
 def tcgen(request):
     return render (request,  "application/TC_Generator_page.html", {})
