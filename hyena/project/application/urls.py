@@ -2,8 +2,9 @@ from django.urls import path
 from .views import index, Register, Login,  logoutuser, Aboutus, resetpassword, Faq, contactus, privacypolicypreview,tcpreview
 from .views import tcgen,tcmodal,privacypolicy,tcmodal2,tcmodal3, popup, privacymodal1, privacymodal3, privacymodal2,tc_condition
 from .views import ready, ready2
+from django.contrib import admin
 urlpatterns = [
-    
+    path('admin/', admin.site.urls),
     path('index/', index, name="home-page"),
     path('register/', Register, name="register-page"),
     path('login/', Login, name="login-page"),

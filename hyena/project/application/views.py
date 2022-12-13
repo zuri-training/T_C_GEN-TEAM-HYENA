@@ -71,7 +71,7 @@ def privacypolicypreview(request):
 def tcpreview(request):
     return render(request, "application/TC_preview.html", {})
     
-
+@login_required
 def tcgen(request):
     return render (request,  "application/TC_Generator_page.html", {})
 
