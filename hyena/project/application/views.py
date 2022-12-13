@@ -113,3 +113,6 @@ def tc_condition(request):
 
 def ready(request):
     return render(request, 'application/ready.html',{})
+
+def ready2(request):
+    return render(request, 'application/ready2.html',{})
