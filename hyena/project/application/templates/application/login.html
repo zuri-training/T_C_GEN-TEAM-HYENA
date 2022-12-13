@@ -13,7 +13,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="{% static 'css/signIn.css'%}" />
+    <link rel="stylesheet" href="{% static 'css/signin.css'%}" />
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}"/>
 
     <link rel="stylesheet" href="{% static 'css/all.min.css'%}"/>
@@ -58,7 +58,8 @@
           <h3 class="error-message"></h3>
           
 
-          <form method="POST" action="signin">
+          <form method="POST">
+          {% csrf_token %}
              <div class="input-group mb-4">
               <span class="input-group-text"><i class="fa fa fa-user"></i></span>
               <input 
@@ -71,17 +72,6 @@
 
 
 
-            <div class="input-group mb-4">
-              <span class="input-group-text"><i class="fa fa fa-envelope"></i></span>
-              <input 
-                type="text" 
-                name="email"
-                class="form-control" 
-                placeholder="Enter Your Email"
-                class="input"/>
-            </div>
-              
-              
 
             
 
@@ -98,10 +88,10 @@
             <a class="fpwd" href="../resetpassword">Forgot Password?</a>
 
             
-              <div class="form-link">
-                <button type="button" class="btn btn-success"> <a href=""></a>Login</button>
+            <div class="button-field">
+              <input type="submit" class="btn1" value="Login" />
               
-              </div>
+            </div>
   
                 
 

@@ -39,18 +39,18 @@ def Login(request):
         name = request.POST.get('uname')
         password = request.POST.get('pword')
 
-        User = authenticate(request, username=name, password=password)
+        User = authenticate(request, username=name, password=password,)
         if User is not None:
             login(request, User)
-            return redirect('home-page')
+            return redirect('tcgen')
         else:
             return HttpResponse('Error, user does not exist')
 
-     return render(request, 'application/Login.html',{})
+     return render(request, 'application/login.html',{})
 
 def logoutuser(request):
         logout(request)
-        return redirect('login-page')
+        return render(request, 'application/index.html', {})
 
 def Aboutus(request):
     return render(request, "application/Aboutus.html", {})
@@ -68,45 +68,48 @@ def contactus(request):
 def privacypolicypreview(request):
     return render(request, "application/privacy_policy_preview.html", {})
 
-@login_required
+
 def tcpreview(request):
     return render(request, "application/TC_preview.html", {})
-
 @login_required
 def tcgen(request):
     return render (request,  "application/TC_Generator_page.html", {})
 
-@login_required
+
 def tcmodal(request):
     return render(request, "application/TC_Modal_page_1.html", {}) 
 
-@login_required
+
 def privacypolicy(request):
     return render (request, "application/privacypolicy.html",{})
 
-@login_required
+
 def tcmodal2(request):
     return render(request, "application/TC_Modal_page_2.html", {})
 
-@login_required
+
 def tcmodal3(request):
     return render (request, "application/TC_Modal_page_3.html", {})
 
-@login_required
+
 def popup(request):
     return render (request, "application/popup _page.html", {})
 
-@login_required
+
 def privacymodal1(request):
     return render (request, "application/privacy_modal1_page.html", {}) 
 
-@login_required
+
 def privacymodal3(request):
     return render (request, "application/privacy_modal3_page.html", {}) 
 
-@login_required
+
 def privacymodal2(request):
     return render (request, "application/privacy_modal2_page.html", {})        
 
+
 def tc_condition(request):
     return render(request, "application/Termscondition.html", {})
+
+def ready(request):
+    return render(request, 'application/ready.html',{})
