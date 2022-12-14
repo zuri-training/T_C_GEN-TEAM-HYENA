@@ -155,14 +155,15 @@ label {
     width: 100%;
     font-size: 60%;
     color: #093330;
-   font-family: futura md;
-  font-size: 14px; 
+    font-family: futura md;
+    font-size: 14px; 
     position: relative;
     top: 0%;
     left: 0%;
 }
+  
 #btn-cont{
-font-size: 12px;
+    font-size: 12px;
 background-color: #093330;
 color: #FFFFFF;
 font-family: futura md; 
