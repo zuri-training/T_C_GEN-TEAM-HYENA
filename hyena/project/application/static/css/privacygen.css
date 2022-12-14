@@ -1,0 +1,57 @@
+html, body {
+    height: 70%;
+    width: 100%;
+    font-family: futura;
+    margin:0;
+    padding:0;
+    background: #FFFFFF;
+  }
+  .main-container{
+  height: 180vh; }
+  .image{
+  width: 100%;
+  }
+  .btn-primary{
+  font-size: 32px;
+  background-color: #093330;
+  color: #FFFFFF;
+  font-family: futura md;
+  width:579px;  
+  height:156px;
+  border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    margin: auto;
+    
+  }
+  h3{
+    font-size: 64px; 
+    font-family: futura md;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    margin: auto;
+    padding-top: 375px;
+  }
+  h4{
+   font-size: 52px; 
+    font-family: futura md;
+    padding-top: 30px;
+    text-align: center;
+    display: grid;
+    margin: auto;
+  }
+  container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 33px;
+  height:500px;
+  width: 100%;
+  }
+  p{
+    text-align: center;
+    padding-top: 30px;
+  }
+  

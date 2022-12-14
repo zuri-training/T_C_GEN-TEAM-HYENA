@@ -1,7 +1,7 @@
 from django.urls import path
 from .views import index, Register, Login,  logoutuser, Aboutus, resetpassword, Faq, contactus, privacypolicypreview,tcpreview
 from .views import tcgen,tcmodal,privacypolicy,tcmodal2,tcmodal3, popup, privacymodal1, privacymodal3, privacymodal2,tc_condition
-from .views import ready, ready2,setting
+from .views import ready, ready2,setting,dashboard,privacygen
 from django.contrib import admin
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,4 +28,6 @@ urlpatterns = [
     path('ready/', ready, name="ready"),
     path('ready2/', ready2, name="ready2"),
     path('setting/', setting, name='setting'),
+    path('dashboard/', dashboard, name='dashboard'),
+    path('privacygen/',privacygen, name='privacygen'),
     ]

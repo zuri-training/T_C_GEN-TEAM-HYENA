@@ -117,4 +117,11 @@ def ready2(request):
     return render(request, 'application/ready2.html',{})
 
 def setting(request):
-    return render(request, 'application/dashboard_setting.html')
+    return render(request, 'application/dashboard_setting.html', {})
+
+@login_required
+def dashboard(request):
+    return render(request, 'application/dashboard.html', {})
+
+def privacygen(request):
+    return render (request, "application/privacygen.html",{})

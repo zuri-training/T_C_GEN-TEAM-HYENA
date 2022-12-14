@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.buttons{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background:red;
+    
+    }
+
+
+.btn-one{
+    background-color: lightblue;
+    Width:70px;
+    Height :40px;
+    }
+
+
+
+
+.btn-two{
+    background-color: darkgreen;
+    Width:50px;
+    Height:30px;
+    }
