@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* reset styling */
+html,
+body
+{
+    width:  100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color:  #000;
+}
+
+/* variables */
+:root
+{
+    --offcanvas-width: 300px;
+    --topNavbarHeight: 56px;
+    --transition-collapse: ease 0.5s;
+}
+
+.section{
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+}
+
+/* sidebar width */
+.side-bar
+{
+    width: var(--offcanvas-width);
+    visibility: visible;
+}
+
+/* sidebar links */
+.sidebar-link
+{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-link .right-icon
+{
+    display: inline-flex;
+    transition: all ease 0.5s;
+}
+
+/* collapse menu */
+.collapsing
+{
+    transition: var(--transition-collapse);
+}
+
+/* chevron rotate on expand */
+.sidebar-link[aria-expanded="true"] .right-icon
+{
+    transform: rotate(180deg);
+}
+
+.main ,.col-md-12{
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: left;
+}
+.card-body{
+    height: 170px;
+    width:100px;
+}
+.card-title{
+    padding: 10px;
+    position: absolute;
+}
+.card-text{
+    position: absolute;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.card-chart{
+    border-radius: 5px;
+    width: 470px;
+    height: 200px;
+    background-color: #fff;
+    border:solid #000;
+}
+
+.card-chart:hover{
+    background-color: #093330;
+    color: #fff;
+}
+
+.plus{
+    position: absolute;
+    padding-top:10px;
+    padding-left: 90px;
+    margin-top: 60px;
+    margin-left: 120px;
+    text-align:center;
+
+
+
+}
+
+.chart-title{
+    text-align: center;
+    position: absolute;
+    padding-left: 80px;
+    padding-top: 30px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+/* sidebar visibility and navbar height */
+@media (min-width: 990px)
+{
+    body
+    {
+        overflow: auto !important;
+    }
+
+    main
+    {
+        margin-left: var(--offcanvas-width);
+    }
+
+    .side-bar
+    {
+        transform: none;
+        visibility: visible !important;
+        top: var(--topNavbarHeight);
+        height: calc(100% - var(--topNavbarHeight));
+    }
+}
+
+/* table styling */
+.card,
+.card-chart,
+.card-table
+{
+    border-radius: 10px;
+}
+
+.card-chart
+{
+    background: rgb(240, 240, 240);
+}
+
+.chart
+{
+    background: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+
+/* checkbox */
+input[type=checkbox]
+{
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}
+
+label
+{
+    cursor: pointer;
+}
