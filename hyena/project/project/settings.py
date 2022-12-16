@@ -22,7 +22,7 @@ SECRET_KEY = 'django-insecure-w$3ir=owm=q=sw#q**7-*8#9jha7cbkf07i8^c6$ss0+joj)(!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tcgen-team-hyena-production.up.railway.app']
 
 
 # Application definition
