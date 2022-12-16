@@ -234,6 +234,9 @@ __Ugwu Gift Chiemezie__(Product Design Lead)
 This project is acknowlegded to Zuri Team for creating this organization and bringing about this project.
 Special thanks to the sponsors too.
 
+## Hosted Link:
+https://teamhyena2.pythonanywhere.com/index/
+
 ## LICENSE
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
