@@ -119,6 +119,7 @@ def ready2(request):
 def setting(request):
     return render(request, 'application/dashboard_setting.html', {})
 
+@login_required
 def dashboard(request):
     return render(request, 'application/dashboard.html', {})
 
