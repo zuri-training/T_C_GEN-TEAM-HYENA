@@ -4,7 +4,10 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
-
+from django.contrib import messages
+from django.contrib.auth.forms import UserCreationForm  
+from .forms import CustomUserCreationForm 
+from django.contrib.auth import forms 
 # Create your views here.
 
 
@@ -33,19 +36,38 @@ def Register(request):
 
     return render(request, 'application/register.html',{})
 
+# def Register(request):  
+#     if request.POST == 'POST':  
+#         form = CustomUserCreationForm(request.POST)  
+#         if form.is_valid():
+#             form.save()
+#             messages.success(request, f'Your account has been created ! You are now able to log in')
+#             return redirect('login-page')
+            
+#     else:  
+#         form = CustomUserCreationForm()  
+#     context = {  
+#         'form':form  
+#     }  
+#     return render(request, 'application/register.html', context)
+
+
+
 def Login(request): 
      if request.method == 'POST':
-        name = request.POST.get('uname')
-        password = request.POST.get('pword')
+        name = request.POST['uname']
+        password = request.POST['pword']
 
-        User = authenticate(request, username=name, password=password,)
-        if User is not None:
-            login(request, User)
-            return redirect('tcgen')
+        user = authenticate(request, username=name, password=password,)
+        if user is not None:
+            login(request, user)
+            return redirect('dashboard')
         else:
             return HttpResponse('Error, user does not exist')
 
      return render(request, 'application/login.html',{})
+
+
 
 def logoutuser(request):
         logout(request)
